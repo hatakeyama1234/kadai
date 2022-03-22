@@ -9,8 +9,13 @@ body {
   line-height: 2;
 }
 
-p,h1,h2,h3,h4,h5,h6 {
+p,h1,h3,h4,h5,h6 {
   margin-top: 0;
+  text-align: center;
+}
+
+h2{
+    margin-top: 0;
 }
 
 img {
@@ -60,7 +65,7 @@ header {
 }
 
 .global-nav li a {
-  color: #ffffff;
+    color: green;
 }
 
 .global-nav li a:hover {
@@ -72,8 +77,8 @@ header {
 #wrap {
   clear: both;
   background: #ffffff;
-  margin-top: 220px;
   padding: 35px 0;
+  margin-top: 100px;
 }
 
 #index #wrap {
@@ -280,7 +285,7 @@ table{
 }
 
 #contact{
-  background: url(contact/img/bg-contact.jpg);
+  background: url(img/1.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -360,4 +365,13 @@ table{
 #contact .required::after{
   content: " * ";
   color: #ff0000;
+}
+
+.ro{
+    width: 50px;
+    height: 50px;
+}
+
+.uma{
+    text-align: center;
 }
