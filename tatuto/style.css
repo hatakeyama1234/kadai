@@ -66,6 +66,7 @@ header {
   border-bottom: #333333 solid 2px;
   border-top: #333333 solid 2px;
   border-right: #333333 solid 2px;
+  background-color: #ffffff;
 }
 
 .global-nav li a {
@@ -171,7 +172,7 @@ footer small {
 }
 
 .main-center{
-  width: 940px;
+  width: 700px;
   margin: 0 auto;
 }
 
