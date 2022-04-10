@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    background-image: url(tatuto/img/c.gif);
+}
+
+h2{
+    text-align: center;
+}
+
+.u{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgba(50,100,200,0.2);
+    
+}
+
+a{
+    color: black;
+}
+
+div.m{
+    margin: 0 auto;  
+}
